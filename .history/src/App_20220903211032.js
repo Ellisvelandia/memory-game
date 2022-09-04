@@ -1,10 +1,11 @@
-import Cards from "./components/Cards";
 
 function App() {
   return (
     <div className="App">
-      <h1>Memory Game</h1>
-      <Cards />
+     <h1>Memory Game</h1>
+     <div className="container">
+      
+     </div>
     </div>
   );
 }
