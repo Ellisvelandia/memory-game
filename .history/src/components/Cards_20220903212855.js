@@ -46,16 +46,8 @@ function Cards() {
   }
 
   function handleClick(id) {
-    if (prev === -1) {
-    items[id].stat = "active"
-    setItems([...items])
-      setPrev(id)
-    }else {
-      check(id)
-    }
+    if
   }
-
-
   return (
     <div className="container">
       { items.map((item, index) => (

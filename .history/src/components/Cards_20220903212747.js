@@ -38,23 +38,10 @@ function Cards() {
       setItems ([...items])
       setTimeout(() => {
         items[current].stat = ""
-        items[prev].stat = ""
-        setItems([...items])
-        setPrev(-1)
+        items[prev]
       }, 1000);
     }
   }
-
-  function handleClick(id) {
-    if (prev === -1) {
-    items[id].stat = "active"
-    setItems([...items])
-      setPrev(id)
-    }else {
-      check(id)
-    }
-  }
-
 
   return (
     <div className="container">
