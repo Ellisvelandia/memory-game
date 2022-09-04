@@ -7,7 +7,6 @@
 html,
 body {
   height: 100%;
-  max-width: 100%;
 }
 
 body {
@@ -20,14 +19,12 @@ body {
 
 h1 {
   text-align: center;
-  margin-bottom: 5rem;
-  color: #fff;
-  margin: 0;
+  margin-bottom: 1em;
 }
 
 .container {
   height: 700px;
-  width: 700px;
+  width: 600px;
   background-color: #0a1118;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -44,10 +41,6 @@ h1 {
   transform: rotateY(180deg);
   animation: 2s hideCard linear;
   transition: transform 0.5s;
-  height: 150px;
-  width: 150px;
-  margin-left: 5px;
-  margin-top: 5px;
 }
 @keyframes hideCard {
   0%,

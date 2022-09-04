@@ -20,9 +20,8 @@ body {
 
 h1 {
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 1.em;
   color: #fff;
-  margin: 0;
 }
 
 .container {
@@ -44,10 +43,6 @@ h1 {
   transform: rotateY(180deg);
   animation: 2s hideCard linear;
   transition: transform 0.5s;
-  height: 150px;
-  width: 150px;
-  margin-left: 5px;
-  margin-top: 5px;
 }
 @keyframes hideCard {
   0%,

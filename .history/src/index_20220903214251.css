@@ -27,7 +27,7 @@ h1 {
 
 .container {
   height: 700px;
-  width: 700px;
+  width: 1000px;
   background-color: #0a1118;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -44,10 +44,6 @@ h1 {
   transform: rotateY(180deg);
   animation: 2s hideCard linear;
   transition: transform 0.5s;
-  height: 150px;
-  width: 150px;
-  margin-left: 5px;
-  margin-top: 5px;
 }
 @keyframes hideCard {
   0%,
